@@ -1,0 +1,316 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+     <TITLE>Snowboard Reviews Entry Page</TITLE>
+</HEAD>
+<BODY BGCOLOR="#EFEFEF" LINK="#0000FF">
+<table width=700 align="center"><tr><td width=40><br></td></tr>
+<tr><td>
+<table>
+<tr><td colspan=2 align="center">
+     <IMG SRC="SBR1.gif" WIDTH=117 HEIGHT=60 BORDER=0  ALT="">
+</td></tr>
+<TR><td>
+
+<IMG SRC="davetweek.gif" WIDTH=200 HEIGHT=200 BORDER=1  ALIGN="LEFT" ALT="Snowboard reviews">
+
+</td>
+<td>
+     <p><font size="+1">This form is for the rider who wishes to help out fellow Snowboarders, so that we will all know what snowboards rule and what boards blow. Thanks for submitting a review. </font></p>
+          
+     </CENTER>
+     </td>
+</TR>
+<TR><TD colspan=2 >
+
+<FORM METHOD=POST ACTION="submitReview.php">
+
+<p><center><b>Tell us about yourself:</b> 
+
+<font size="-1">(* required fields)</font></center></p>
+
+<blockquote>
+        <table align="center">
+            <tr>
+                <td align="right"><em>First Name* </em></td>
+                <td><input type="text" size="20"
+                name="first_name" > </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Last Name* </em></td>
+                <td><input type="text" size="20"
+                name="last_name" > </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Year Born* </em></td>
+                <td><input type="text" size="4"
+                name="year_born"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Sex* </em></td>
+                <td><input type="radio"
+                name="sex" value="Female"> Female<input
+                type="radio" checked name="sex" value="Male">
+                Male</td>
+            </tr>
+            <tr>
+                <td align="right"><em>Height* </em> (example: 5' 3")</td>
+                <td><input type="text" size="6" maxlength="6"
+                name="height">
+
+                    <input type="radio" name="height_units" value="cm">cm 
+                    <input type="radio" name="height_units" value="feet" CHECKED>ft-in 
+                    </td>
+
+            </tr>
+            <tr>
+                <td align="right"><em>Weight* </em></td>
+                <td>
+                <input type="text" size="6" maxlength="6" name="weight">
+                <input type="radio" name="weight_units" value="kg">kg
+                <input type="radio" name="weight_units" value="pounds" checked >lbs 
+                    </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Riding Style </em></td>
+                <td><input type="text" size="30" name="riding_style"></td>
+            </tr>
+            <tr>
+               <td align="right"><em>years experience* </em></td>
+               <td>
+               <input type="text" size="6" maxlength="2" name="years_exp">
+               </td>
+            </tr>
+            <tr>
+                <td align="right"><em>I'm from </em></td>
+                <td><input type="text" size="30" name="location"></td>
+            </tr>
+            <tr>
+                <td align="right"><em>My Favorite Boarding Spot </em></td>
+                <td><input type="text" size="30" name="favorite_spot"></td>
+            </tr>
+            <tr>
+                <td align="right"><em>My URL / image is at http://</em></td>
+                <td><input type="text" size="50" name="image_url"></td>
+            </tr>
+<tr>
+     <td align="right">Email Address </td>
+     <td><input type="text" size="30" maxlength="50" name="email"></td>
+</tr>
+<tr><td colspan=2><center>
+<FONT SIZE="-1" COLOR="#FF8000">(We will never share your address or send spam, unless you really want our spam)</FONT>
+</center>
+</td></tr>
+<tr>
+     <td align="right">Hide my email on review page</td>
+     <td> &nbsp <input type=checkbox name="hide_email"></td>
+</tr><tr>
+     <td align="right">Email me comments on this review</td>
+     <td> &nbsp <input type=checkbox name="email_comments"> 
+</td></tr>
+     <td align="right">I really want your spam (our mailing list)</td>
+     <td> &nbsp <input type=checkbox name="spam_me"> &nbsp (no more that 1 email / month)
+</td></tr>
+
+</table>
+<p><center><hr color="red" width=200></center>
+
+     <p><center><b>Tell us about this product:</b></center></p>
+
+    <blockquote>
+<table border="0">
+<tr>
+     <td align="right"><em>Product Type</em></td>
+     <td>
+     <SELECT NAME="product">
+          <option value="snowboard">Snowboard </option>
+          <option value="snowboard_boots">Snowboard Boots</option>
+          <option value="snowboard_bindings">Snowboard Bindings</option>
+     </SELECT>
+</td></tr>
+<tr>
+     <td align="right"><em>Company name</em></td>
+<TD>
+<NOBR>
+<SELECT NAME="company">
+            <option value="not_selected">select one </option>
+            <option value="247">247 </option>
+            <option value="5150">5150 </option>
+            <option value="A">A snowboards </option>
+            <option value="Aggression">Aggression </option>
+            <option value="Airwalk">Airwalk </option>
+            <option value="AirTime">AirTime </option>
+            <option value="Apocalypse">Apocalypse </option>
+            <option value="Arbor">Arbor </option>
+            <option value="Atlantis">Atlantis </option>
+            <option value="Avalanche">Avalanche </option>
+            <option value="Barfoot">Barfoot </option>
+            <option value="Beyond">Beyond </option>
+            <option value="Blacksmith">Blacksmith </option>
+            <option value="Blankboard">Blankboard </option>
+            <option value="Blax">Blax </option>
+            <option value="Bline">Bline </option>
+            <option value="Bodaggett">Bodaggett </option>
+            <option value="Burton">Burton </option>
+            <option value="Capita">Capita</option>
+            <option value="Coiler">Coiler</option>
+            <option value="Crazy Creek">Crazy Creek </option>
+            <option value="Custom Craft">Custom Craft </option>
+            <option value="Division 23">Division 23 </option>
+            <option value="Donek">Donek </option>
+            <option value="Donuts">Donuts </option>
+            <option value="Duotone">Duotone </option>
+            <option value="Dukes">Dukes </option>
+            <option value="Echos">Echos </option>
+            <option value="Elan">Elan </option>
+            <option value="ESP">ESP </option>
+            <option value="Empire">Empire </option>
+            <option value="Evolution">Evolution </option>
+            <option value="Forum">Forum </option>
+            <option value="Gecko">Gecko </option>
+            <option value="Generics">Generics </option>
+            <option value="Geronimo ">Geronimo </option>
+            <option value="Globe">Globe </option>
+            <option value="Glissade">Glissade/Crap </option>
+            <option value="Gnu">Gnu </option>
+            <option value="Gothic">Gothic </option>
+            <option value="Hammer">Hammer </option>
+            <option value="Hazmat">Hazmat </option>
+            <option value="Healside">Healside </option>
+            <option value="Heetrz">Heetrz </option>
+            <option value="Hot">Hot </option>
+            <option value="House">House </option>
+            <option value="Hyperlite">Hyperlite </option>
+            <option value="Identity">Identity </option>
+            <option value="Illuminati">Illuminati </option>            
+            <option value="Inca">Inca </option>
+            <option value="Innovation">Innovation </option>
+            <option value="Intelligence">Intelligence </option>
+            <option value="Jobe">Jobe </option>
+            <option value="Joyride">Joyride </option>
+            <option value="Jolt">Jolt </option>
+            <option value="Juice">Juice </option>
+            <option value="K2">K2 </option>
+            <option value="Kemper">Kemper </option>
+            <option value="Killer loop">Killer Loop </option>
+            <option value="Kuu">Kuu </option>
+            <option value="Lamar">Lamar </option>
+            <option value="Legion">Legion </option>
+            <option value="Libtech">Libtech </option>
+            <option value="Limited">Limited </option>
+            <option value="Liquid">Liquid </option>
+            <option value="Look">Look </option>
+            <option value="Lust">Lust </option>
+            <option value="M3">M3 </option>
+            <option value="Madd">Madd </option>
+            <option value="Marker">Marker </option>
+            <option value="Mazzo">Mazzo </option>
+            <option value="Mercury">Mercury </option>
+            <option value="Mistral">Mistral </option>
+            <option value="MLY">MLY</option>
+            <option value="Morrow">Morrow </option>
+            <option value="Nale">Nale </option>
+            <option value="Never Summer">Never Summer </option>
+            <option value="Nidecker">Nidecker </option>
+            <option value="Nitro">Nitro </option>
+            <option value="No Limitz">No Limitz </option>
+            <option value="Option">Option </option>
+            <option value="Oracle ">Oracle </option>
+            <option value="Original Sin">Original Sin </option>
+            <option value="osb">OSB </option>
+            <option value="Oxygen">Oxygen </option>
+            <option value="Palmer">Palmer </option>
+            <option value="Philosophy">Philosophy </option>
+            <option value="Pifer">Pifer </option>
+            <option value="Pil">Pil </option>
+            <option value="PL">PL </option>
+            <option value="Prior">Prior </option>
+            <option value="Pure Carve">Pure Carve </option>
+            <option value="Revalation">Revalation </option>
+            <option value="Rad Air">Rad Air </option>
+            <option value="Rage">Rage </option>
+            <option value="Ride">Ride </option>
+            <option value="Riot">Riot </option>
+            <option value="Riva">Riva </option>
+            <option value="Rome">Rome </option>
+            <option value="Rossignal">Rossignal </option>
+            <option value="Salomon">Salomon </option>
+            <option value="Santa Cruz">Santa Cruz </option>
+            <option value="Scott">Scott </option>
+            <option value="Shortys">Shortys </option>
+            <option value="Shock">Shock </option>
+            <option value="Silence">Silence </option>
+            <option value="Sims">Sims </option>
+            <option value="Skratch">Skratch </option>
+            <option value="Smelly Tuna">Smelly Tuna </option>
+            <option value="Smokin">Smokin </option>
+            <option value="Snowjam">Snowjam </option>
+            <option value="Sobe">Sobe </option>
+            <option value="Staple">Staple </option>
+            <option value="Static">Static </option>
+            <option value="Swellpanik">Swellpanik </option>
+            <option value="Town n Country">Town-n-Country </option>
+            <option value="Tucker">Tucker </option>
+            <option value="Tweaked">Tweaked </option>
+            <option value="Twelve">Twelve </option>
+            <option value="TypeA">TypeA </option>
+            <option value="Vision">Vision </option>
+            <option value="Visle">Visle </option>
+            <option value="Volkl">Volkl </option>
+            <option value="Volant">Volant </option>
+            <option value="Walle">Walle </option>
+            <option value="Whelan">Whelan </option>
+            <option value="Winterstick">Winterstick </option>
+            <option value="World Industries">World Industries </option>
+            <option value="not_listed">Not Listed </option>
+          </SELECT>
+<FONT SIZE="-1" COLOR="#FF8000">fill-in if not listed >></FONT>
+<input type="text" size="20" name="company_fill_in">
+</TD>
+            </tr>
+            <tr>
+                <td align="right"><em>Year</em></td>
+                <td><input type="text" size="10"
+                name="year"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Model</em></td>
+                <td><input type="text" size="20"
+                name="model"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em>Size </em>(cm)</td>
+                <td><input type="text" size="3"
+                name="size"> </td>
+            </tr>
+            <tr>
+                <td align="right"><em><nobr>Warranty Length (if known)</nobr></em></td>
+                <td><input type="text" size="10" name="warranty"> </td>
+</tr>
+</table>
+
+<p><nobr>Give this product an overall rating of 1 to 10 </nobr>
+<input type="text" size="5" maxlength="5" name="rating_1">
+<FONT SIZE="-1" COLOR="#FF8000">(10 being the highest rating)</FONT>
+
+<p><center>What do you think about this product?<br> Please give us as much info as possible. Explain how it performs ( how is the flex? How well does it turn? Does it hold a carve well? Is it light or heavy? Give some good points and some bad ones) please be as critical as you can. The more we get the better the site will be. We will only accept reviews that are more than 7 sentences long and that are informative on how the snowboard performs. You can also write the review using a text editor on your computer, then copy and paste the text into the box below.</center>
+
+<p>Full Review: <textarea name="review_text" rows="10" cols="70"></textarea>
+
+<p>One Sentence Summary: <input type="text" size="58" name="final_word">
+        
+<p><center><input type="submit" value="Submit Review" >
+
+<p>(May take up to 15 seconds to process your review. We manually approve all reviews, and delete those that do not attempt to give helpful information.)
+
+<p><A HREF="mailto:support@chicodigital.com">Comments or suggestions regarding this form or our site?</A>
+
+<p><h3>Fresh tracks for all</H3><br>
+
+</form>
+
+</td></tr></table>
+
+</td></tr><tr><td width=20><br></td></tr></table>
+</body>
+</html>

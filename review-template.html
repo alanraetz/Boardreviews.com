@@ -1,0 +1,111 @@
+<HTML>
+<HEAD>
+<TITLE> Snowboard review of {company} {model} {year} by {first_name} {last_name} </TITLE>
+</head>
+<body bgcolor="#FCFCFC" text="#000000">
+
+<br><br>
+<p align="center"> <font face="Georgia, Times New Roman, Times, serif" size="5"> 
+  {year} <font color="#0000CC">{company}</font> <font color="#CC6633">{model}</font> 
+  {size} </font></p>
+
+<if NAME="submit_date">
+
+     <p align="center"><font face="Georgia, Times New Roman, Times, serif" size="2"> 
+
+     Submitted on {submit_date}
+
+     </font></p>
+
+</if NAME="submit_date">
+
+<font face="Georgia, Times New Roman, Times, serif" size="2">
+  
+<table align="center" width="500" border="0" bordercolor="blue">
+  <tr valign="top" > 
+    <td bgcolor="#FCFCFC"> 
+      <table width="280" align="center" bgcolor="#ECECEC">
+        <tr> 
+          <td><b><font face="Georgia, Times New Roman, Times, serif">Reviewed 
+            By</font> </b></td>
+          <td >{first_name} {last_name}</td>
+        </tr>
+        <if NAME="location"> 
+        <tr> 
+          <td><b><font face="Georgia, Times New Roman, Times, serif">From</font></b></td>
+          <td >{location}</td>
+        </tr>
+        </if NAME="location"> 
+        <tr> 
+          <td ><font face="Georgia, Times New Roman, Times, serif" size="2"><b>Age</b></font></td>
+          <td >{age}</td>
+        </tr>
+        <tr> 
+          <td ><font face="Georgia, Times New Roman, Times, serif" size="2"><b>Height</b></font></td>
+          <td >{height}</td>
+        </tr>
+        <tr> 
+          <td ><font face="Georgia, Times New Roman, Times, serif" size="2"><b>Weight</b></font></td>
+          <td >{weight}</td>
+        </tr>
+        <tr> 
+          <td  ><font face="Georgia, Times New Roman, Times, serif" size="2"><b>Years 
+            Experience</b></font></td>
+          <td  >{years_exp}</td>
+        </tr>
+        <if NAME="favorite_spot"> 
+        <tr> 
+          <td ><font face="Georgia, Times New Roman, Times, serif" size="2"><b>Favorite 
+            Spot</b></font></td>
+          <td >{favorite_spot}</td>
+        </tr>
+        </if NAME="favorite_spot"> <IF NAME="riding_style"> 
+        <tr> 
+          <td ><font face="Georgia, Times New Roman, Times, serif" size="2"><b>Riding 
+            Style</b></font></td>
+          <td >{riding_style}</td>
+        </tr>
+        </if NAME="riding_style"> <if NAME="email"> 
+        <tr> 
+          <td ><font face="Georgia, Times New Roman, Times, serif" size="2"><b>Email 
+            me at</b></font></td>
+          <td ><a href="mailto:{email}"> {email} </a></td>
+        </tr>
+        </if NAME="email"> 
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<table width="600" align="center" border="0" bgcolor="#FCFCFC" bordercolor="blue">
+  <tr>
+    <td align="center"> <font color="#CC8E0D" face="Georgia, Times New Roman, Times, serif"><b><font color="#000099">
+    <br>
+    Overall 
+      Rating: {rating} </font></b></font></td>
+  </tr>
+  <tr>
+    <td> 
+      <div align="center">
+        <table width="95%" align="center" >
+          <tr> 
+            <td>
+             <font face="Verdana, Arial, Helvetica, sans-serif" size="3"> 
+                    
+              <p> <font color="#333366">{review_text} </font></p>
+             </font>
+        </table>
+
+      <if NAME="final_word">
+        <p><font face="Comic Sans MS"><font color="#CC8E0D"><b> <font face="Georgia, Times New Roman, Times, serif" color="#000099">Final 
+          Word:</font><font face="Georgia, Times New Roman, Times, serif" color="#333333"> 
+          </font></b></font><font face="Georgia, Times New Roman, Times, serif" color="#333333"> 
+          {final_word} </font></font> 
+        </if NAME="final_word">
+      
+        </div>
+
+    </table>
+</font></BODY>
+</HTML>
+
